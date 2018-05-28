@@ -1,0 +1,33 @@
+{
+  "name": "kaxi-api",
+  "version": "1.0.0",
+  "description": "Restful API for Kaxi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OswaldoD/kaxi-api.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "KAXI"
+  ],
+  "author": "Oswaldo Dávila",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OswaldoD/kaxi-api/issues"
+  },
+  "homepage": "https://github.com/OswaldoD/kaxi-api#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mysql": "^2.15.0"
+  }
+}
